@@ -17,13 +17,19 @@ Linux OS
 |   |───*Application files
 |
 └───build.conf
+|
+└───build.sh
+|
+└───clear.sh
 
 ```
 
-- supervisor.conf : supervisor設定ファイル(変更しないこと)
-- app.conf : アプリ起動設定
-- Dockerfile : Docker設定ファイル
-- build.conf : ビルド設定ファイル
+- <code>supervisor.conf</code> : supervisor設定ファイル(変更しないこと)
+- <code>app.conf</code> : アプリ起動設定
+- <code>Dockerfile</code> : Docker設定ファイル
+- <code>build.conf</code> : ビルド設定ファイル
+- <code>build.sh</code> : imageをビルドスクリプト
+- <code>clear.sh</code> : imageを削除スクリプト
 
 ## 2.設定手順
 - build.confを編集し、image名を入力する
